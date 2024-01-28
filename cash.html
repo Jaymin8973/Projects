@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+
+<body class="bg-info">
+    <form action="">
+    <div class="container mt-3">
+        <h2 style="margin-left:400px ;">Calculate Your Cash Here</h2>
+        <div class="mt-4 p-5 bg-light text-white rounded">
+            <table>
+                <tr>
+                    <td><h2 class="text-danger ml-5">INDIAN CURRENCY</h2></td>
+                    <td><h2 class="text-danger ml-5">AMOUNT</h2></td>
+                    <td><h2 class="text-danger ml-5">TOTAL</h2></td>
+                </tr>
+                <tr>
+                    <td><img src="2000.jpg" alt="" height="200px" width="450px"></td>
+                    <td><input type="text" name="" id="n2000" class="m-5 bg-transparent" placeholder="0000000000" onkeyup="cash()"></td>
+                    <td><input type="text" name="" id="t2000" class="text-dark" value="00000"></td>
+                </tr>
+                <tr>
+                    <td><img src="500-rupees-png.png" alt="" height="200px" width="450px"></td>
+                    <td><input type="text" name="" id="n500" class="m-5 bg-transparent" placeholder="0000000000" onkeyup="cash()"></td>
+                    <td><input type="text" name="" id="t500" class="text-dark" value="00000"></td>
+                </tr>
+                <tr>
+                    <td><img src="200.jpg" alt="" height="200px" width="450px"></td>
+                    <td><input type="text" name="" id="n200" class="m-5 bg-transparent" placeholder="0000000000" onkeyup="cash()"></td>
+                    <td><input type="text" name="" id="t200" class="text-dark" value="00000"></td>
+                </tr>
+                <tr>
+                    <td><img src="100.jpg" alt="" height="200px" width="450px" ></td>
+                    <td><input type="text" name="" id="n100" class="m-5 bg-transparent" placeholder="0000000000" onkeyup="cash()"></td>
+                    <td><input type="text" name="" id="t100" class="text-dark" value="00000"></td>
+                </tr>
+                <tr>
+                    <td><img src="50.jpg" alt="" height="200px" width="450px"></td>
+                    <td><input type="text" name="" id="n50" class="m-5 bg-transparent" placeholder="0000000000" onkeyup="cash()"></td>
+                    <td><input type="text" name="" id="t50" class="text-dark" value="00000"></td>
+                </tr>
+                <tr>
+                    <td><img src="20.jpg" alt="" height="200px" width="450px"></td>
+                    <td><input type="text" name="" id="n20" class="m-5 bg-transparent" placeholder="0000000000" onkeyup="cash()"></td>
+                    <td><input type="text" name="" id="t20" class="text-dark" value="00000"></td>
+                </tr>
+                <tr>
+                    <td><img src="10.jpg" alt="" height="200px" width="450px"></td>
+                    <td><input type="text" name="" id="n10" class="m-5 bg-transparent" placeholder="0000000000" onkeyup="cash()"></td>
+                    <td><input type="text" name="" id="t10" class="text-dark" value="00000"></td>
+                </tr>
+            </table>
+            
+        </div>
+    </div>
+    <div style="height: 300px; width: 500px; margin-left: 500px; margin-top: 100px; border: 2px solid black; background-color: white" >
+    <h1 id="Total" class="text-dark" style="text-align: center;">Your Total Is :</h1><br>
+    <h1 id="ab" class="text-dark" style="text-align: center;">Total Note :</h1>
+
+</div>
+</form>
+<div>
+</div>
+</body>
+    <script>
+
+    function cash(params) {
+        var ca1=document.getElementById('n2000').value
+        var ca11=ca1*2000
+        document.getElementById('t2000').value=ca11       
+
+        var ca2=document.getElementById('n500').value
+        var ca22=ca2*500
+        document.getElementById('t500').value=ca22      
+    
+    
+        var ca3=document.getElementById('n200').value
+        var ca33=ca3*200
+        document.getElementById('t200').value=ca33       
+    
+    
+        var ca4=document.getElementById('n100').value
+        var ca44=ca4*100
+        document.getElementById('t100').value=ca44      
+    
+   
+        var ca5=document.getElementById('n50').value
+        var ca55=ca5*50
+        document.getElementById('t50').value=ca55       
+    
+
+        var ca6=document.getElementById('n20').value
+        var ca66=ca6*20
+        document.getElementById('t20').value=ca66       
+    
+   
+        var ca7=document.getElementById('n10').value
+        var ca77=ca7*10
+        document.getElementById('t10').value=ca77      
+    
+        var ca8=ca11+ca22+ca33+ca44+ca55+ca66+ca77
+        document.getElementById('Total').innerHTML=" Your Total Is :" + ca8
+        
+        var ca9=+ca1+ +ca2+ +ca3+ +ca4+ +ca5+ +ca6+ +ca7
+        document.getElementById('ab').innerHTML="Total Note :" + ca9
+    }
+    
+</script>
+
+</html>

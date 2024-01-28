@@ -1,0 +1,268 @@
+@font-face {
+    font-family: myfont;
+    src: url(font/BebasNeue-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: myfont;
+    box-sizing: border-box;
+}
+#vj{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#v1{
+    color: white;
+    margin-top: 30px;
+}
+#vj a{
+    text-decoration: none;
+    color: white;
+}
+#vj li{
+    line-height: 40px;
+    list-style: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+#j3, #j5{
+    margin-top: 50px;
+}
+#vj h2{
+    color: white;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+i{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+i:hover{
+    color: red;
+}
+#header{
+    height: 150vh;
+    background-image: url(images/topbanner-makeplay.jpg) ;
+    background-size: cover;
+}
+#collapsibleNavbar ul li a{
+    letter-spacing: 2px;
+    font-size: 25px;
+}
+#logo{
+    filter:invert(1);
+}
+#ourflavour{
+    height: 60vh;
+    text-align: center;
+}
+#flavor2{
+    padding: 50px;
+    position: relative;
+    top: -450px;
+}
+#f1{
+    background-image: url(https://bira91.com/img/white-wheat.jpeg);
+    background-size: cover;
+    height: 570px;
+    width: 420px;
+    margin-bottom: 70px;
+}
+#f2{
+    background-image: url(https://bira91.com/img/indian-pale.jpeg);
+    background-size: cover;
+    height: 570px;
+    width: 420px;
+}
+#f3{
+    background-image: url(https://bira91.com/img/light-low.jpeg);
+    background-size: cover;
+    height: 570px;
+    width: 430px;
+}
+#f4{
+    background-image: url(https://bira91.com/img/malabar-stout.jpeg);
+    background-size: cover;
+    height: 570px;
+    width: 430px;
+}
+#f5{
+    background-image: url(https://bira91.com/img/boom-strong.jpeg);
+    background-size: cover;
+    height: 570px;
+    width: 430px;
+   
+}#f6{
+    background-image: url(https://bira91.com/img/boom-classic.jpeg);
+    background-size: cover;
+    height: 570px;
+    width: 430px;
+   
+}
+#flavor3{
+    position: relative;
+    background-color: black;
+    padding: 110px;
+    padding-top: 270px;
+}
+#flavor2 figcaption{
+    text-align: center;
+}
+#img1{
+    height: 142vh;
+    background-size: cover;
+    background-image: url(images/topbanner-makeplay.jpg);
+}
+#img2{
+    height: 142vh;
+    background-size: cover;
+    background-image: url(https://bira91.com/img/home/topbanner-grizly.jpg);
+}
+#img3{
+    height: 142vh;
+    background-size: cover;
+    background-image: url(https://bira91.com/img/home/topbanner-hs.jpg);
+}
+#makeplay p{
+    line-height: 120px;
+    text-align: end;
+    font-size: 140px;
+}
+#goldh{
+    background-color: #FF742A;
+    height: 250px;
+    padding-top: 80px;
+    text-align: left;
+    position: absolute;
+    display: none;
+    bottom: 0;
+}
+#gdw{
+    height: 570px;
+    background-size: cover;
+    background-image: url(images/gold-wheat.jpeg);
+    position: relative;
+    
+}
+#gdw1{
+    height: 570px;
+    background-size: cover;
+    background-image: url(images/blond-summer.jpeg);
+    position: relative;
+    
+}
+#black{
+    position: relative;
+    margin-top:750px;
+    background-color: black;
+    height: 180vh;
+}
+#shop{
+    margin-top: 50px;
+}
+#i1{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-8.jpg);
+    background-size: cover;
+}
+#i2{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-7.jpg);
+    background-size: cover;
+}
+#i3{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-4.jpg);
+    background-size: cover;   
+}
+#i4{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-3.jpg);
+    background-size: cover;
+}
+#shpm{
+    background-color: #F8F8F8;
+}
+#ashp{
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: #ED1C24;
+    color: white;
+}
+#shop1{
+    margin-top: 50px;
+}
+#i5{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-6.jpg);
+    background-size: cover;
+}
+#i6{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-5.jpg);
+    background-size: cover;
+}
+#i7{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-2.jpg);
+    background-size: cover;   
+}
+#i8{
+    height: 300px;
+    width: 300px;
+    background-image: url(https://bira91.com/img/merch-store-item-1.jpg);
+    background-size: cover;
+}
+#vitem{
+    position: absolute;
+}
+#vitem2{
+    padding-top: 100px;
+}
+#vitem3{
+    text-decoration: none;
+    color: #F8F8F8;
+    background-color: #ED1C24;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 55px;
+    padding-right: 55px;
+    margin-top: 50px;
+}
+#black2{
+    position: relative;
+    margin-top: -350px;
+    height: 60vh;
+    background-color: black;
+    z-index: -5;
+
+}
+#part1 li{
+    font-size: 20px;
+    list-style: none;
+    margin-top: 25px;
+    padding-left: 15px;
+}
+#part2{
+    margin: 0px;
+    height: 600px;
+    background-image: url(https://bira91.com/img/dropdown/dropdown-11.jpg);
+    background-size: cover;
+}

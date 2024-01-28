@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <button onclick="plus()">+</button> <span id="one">1</span> <button onclick="minus()">-</button>
+</div>
+<script>
+   function plus() {
+    var add=document.getElementById('one').innerHTML
+    add++
+    document.getElementById('one').innerHTML=add;
+} 
+function minus() {
+    var subtract=document.getElementById('one').innerHTML
+    subtract--
+    if (subtract<0) 
+    {
+
+    } 
+    else {
+        document.getElementById('one').innerHTML=subtract;    
+   }
+   }
+</script>
+</body>     
+</html>

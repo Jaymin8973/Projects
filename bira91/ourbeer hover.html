@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+           #part1 li{
+                font-size: 20px;
+                list-style: none;
+                margin-top: 25px;
+                padding-left: 15px;
+            }
+            #part2{
+                margin: 0px;
+                height: 600px;
+                background-image: url(https://bira91.com/img/dropdown/dropdown-11.jpg);
+                background-size: cover;
+            }
+        </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-transparent navbar-dark navbar-expand-md">
+        <div class="container-fluid mt-3">
+          <a class="navbar-brand ps-5" href="#"><img src="images/logo-black.svg" alt="" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item pe-3">
+                <a class="nav-link dropdown-toggle text-light" href="#">OUR BEERS</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link dropdown-toggle text-light" href="#">BEYOND BEERS</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link text-light" href="#">TAPROOMS</a>
+              </li>
+              <li class="nav-item dropdown pe-3">
+                <a class="nav-link dropdown-toggle text-light" href="#">MAKE PLAY</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link text-light" href="#">MERCH STORE</a>
+              </li>
+              <li class="nav-item pe-3">
+                <a class="nav-link text-light" href="#">OUR STORY</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <h1 class="m-5" style="display: inline;">OUR BEERS</h1>
+    <div id="main" class="d-flex mt-5">
+        <div id="part1" class="w-50 d-flex justify-content-between">
+            <div>
+                <ul>
+                    <h2 class="ps-3">YEAR ROUND</h2>
+                    <li>GOLD</li>
+                    <li>BLONDE SUMMER LAGER</li>
+                    <li>WHITE</li>
+                    <li>LIGHT</li>
+                    <li>BOOM SUPER STRONG</li>
+                    <li>BOOM CLASSIC</li>
+                    <li>RISE</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <h2>LIMITED RELEASE</h2>
+                    <li>MALABAR STOUT</li>
+                    <li>IPA BREWED WITH POMELO</li>
+                    <li>IMAGINED IN INDIA</li>
+                </ul>
+            </div>
+        </div>
+        <div id="part2" class="w-50"></div>
+    </div>
+</body>
+
+</html>
